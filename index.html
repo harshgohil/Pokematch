@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Play&family=Teko&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="grid-wrapper">
+            <div id='game-grid' class="grid">
+                <!-- Starting screen here -->
+                <div class="start-screen">
+                    <p><span>POK&#200-MATCH</span> <br/> <span class="flash">PRESS PLAY</span></p>
+                </div>
+                <!-- cards in here -->
+                <div class="settings">
+                    <!-- settings buttons here -->
+                    <button type="button" class="play game-button">PLAY</button>
+                    <button type="button" class="reset game-button">RESET</button>
+                    <div class="levels">
+                        <button type="button" class="select-up game-button">
+                            +
+                        </button>
+                        <span class="difficultyLabel">MEDIUM</span>
+                        <button type="button" class="select-down game-button">
+                            -
+                        </button>
+                    </div>
+                </div>
+                <div class="score">
+                    <span id="score-label" class="score-timer">
+                        Score:
+                    </span>
+                    <span id="timer-label" class="score-timer">
+                        Time:
+                    </span>
+                </div>
+            </div>
+        </div>
+        
+        <script src="app.js"></script>
+    </body>
+</html>
+
+
+
